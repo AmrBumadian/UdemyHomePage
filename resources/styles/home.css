@@ -1,0 +1,383 @@
+/* body and all elements */
+body {
+    font-family: "udemy sans",Helvetica,Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body * {
+    background: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Nav */
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 4.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0, 0.1);
+}
+
+nav > * {
+    display: inline-block;
+    margin: 0 0.5rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+nav > button {
+    font-size: 0.9rem;
+    color: black;
+    border: none;
+}
+
+nav > button:hover {
+    color: blueviolet;
+}
+
+#hidden-icons,
+#hidden-menu {
+    display: none;
+}
+
+.logo {
+    height: 50%;
+    margin-left: 1.5rem;
+}
+
+#login,
+#signup,
+#language {
+    border: 1px solid black;
+    color: black;
+}
+
+#login,
+#signup {
+    font-weight:bold;
+}
+
+#login:hover,
+#language:hover {
+    background-color: gainsboro;
+    color: black;
+}
+
+#signup:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+#login {
+    padding: 0.6rem 1.5rem;
+}
+
+#language {
+    padding: 0.6rem 0.7rem;
+    margin-right: 1.5rem;
+}
+
+#signup {
+    background-color: #1a1f1f;
+    color: white;
+    padding: 0.6rem 0.9rem;
+}
+
+/* Search */
+
+nav > form {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+    width: 100%;
+    padding: 0.6rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px black solid;
+    border-radius: 2rem;
+}
+
+#search-bar {
+    height: 1.8rem;
+    width: 100%;
+    margin-left: 0.9rem;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fb;
+    margin: 5px auto auto;
+    width: 100%;
+}
+
+header > section {
+    position: absolute;
+    background-color: white;
+    height: 8rem;
+    width: 23rem;
+    margin-left: 4.2rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header > section > p {
+    padding: 1rem;
+}
+
+header > section > h2 {
+    font-family: serif;
+    font-size: 2.2rem;
+    margin-bottom: 0.6rem;
+}
+
+header > img {
+    margin: auto;
+    margin-top: 1rem;
+}
+
+/* Main */
+
+main {
+    width: 95%;
+    margin: 3rem auto 1.5rem auto;
+}
+
+main h2 {
+    font-size: 2.5rem;
+    font-family: Times, serif;
+    margin-bottom: 1rem;
+}
+
+.categories {
+    margin: 1rem 0 0.3rem 1rem;
+    list-style-type: none;
+}
+
+.categories > li {
+    display: inline;
+    font-family: "udemy sans",Arial,sans-serif;
+    font-weight: bold;
+    color: grey;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.categories li:hover {
+    color: black;
+}
+
+#chosen-category {
+    color: black;
+}
+
+.category {
+    border: 1px solid gainsboro;
+    padding: 2rem 2rem;
+}
+
+.category button {
+    cursor: pointer;
+}
+
+.category-description {
+    margin: 1rem 0 1.5rem 0;
+    max-width: 800px;
+    text-overflow: ellipsis;
+}
+
+.category > button {
+    font-weight:bold;
+    color: black;
+    margin-bottom: 2rem;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid black;
+}
+
+.category > button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: black;
+}
+
+/* Courses */
+
+.courses {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+#next-button,
+#prev-button {
+    position: absolute;
+    top: 145%;
+    font-size: 2rem;
+    height: 3rem;
+    width: 3rem;
+    color:white;
+    background-color: black;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+#next-button {
+    right: 4%;
+}
+#prev-button {
+    left: 4%;
+}
+#next-button:hover,
+#prev-button:hover {
+    background-color: grey;
+}
+
+.course {
+    width: 15rem;
+    height: fit-content;
+    margin: 1rem 0.6rem;
+    min-height: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.course > *{
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.author, .enrolled{
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: 	grey;
+}
+
+.rating{
+    color: goldenrod;
+    font-weight: 600;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.old-price{
+    text-decoration: line-through;
+    color: grey;
+}
+
+/* Hiding udemy-business */
+@media only screen and (max-width: 1080px) {
+    #udemy-business{
+        display: none;
+    }
+}
+
+/* Hiding udemy-teach */
+@media only screen and (max-width: 920px) {
+
+    #udemy-teach{
+        display: none;
+    }
+
+    #next-button,
+    #prev-button {
+        top: 150%;
+        font-size: 1.2rem;
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+/* Changing Nav bar */
+@media only screen and (max-width: 800px) {
+    
+    nav > form,
+    nav > button {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+        height: 4rem;
+    }
+
+    #hidden-icons, #hidden-menu {
+        display: inline-block;
+    }
+
+    #hidden-menu {
+        margin-left: 1.5rem;
+    }
+
+    #hidden-menu:hover {
+        color: grey;
+    }
+
+    #hidden-icons {
+        margin-right: 0.6rem;
+    }
+
+    #hidden-icons > button {
+        margin: auto 0.6rem;
+        cursor: pointer;
+    }
+
+    #next-button,
+    #prev-button {
+        top: 150%;
+        font-size: 1.2rem;
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+/* Mobile Screen */
+@media only screen and (max-width: 720px) {
+
+    header > section {
+        height: fit-content;
+        width: 45%;
+        margin: 0 1rem;
+        padding-left: 2rem;
+    }
+
+    header > img {
+        width: 100%;
+    }
+    
+    main {
+        width: 90%;
+        margin: 0 auto 2rem auto;
+    }
+    main h2{
+        margin-top: 1rem;
+        font-size: 1.8rem;
+    }
+    .courses {
+        flex-wrap: wrap;
+    }
+
+    .course {
+        width: 100%;
+        font-size: 1.6rem;
+    }
+
+    #next-button, #prev-button {
+        display: none;
+    }
+
+    .price,
+    .old-price,
+    .author,
+    .rating {
+        font-size: 1rem;
+    }
+
+}
+
