@@ -1,0 +1,333 @@
+{
+    "AWS": {
+        "name": "AWS",
+        "title": "Become an expert in cloud computing with AWS Certification",
+        "description": "Start exploring new possibilities for your future. Log in to see courses on sale through tomorrow.",
+        "courses": [
+            {
+                "name": "Amazon Web Services(AWS) Certified 2022 - 4 Certifications!",
+                "author": "BackSpace Academy, Paul Coady",
+                "rating": 4.5,
+                "enrolled": 20993,
+                "currentPrice": 269.99,
+                "oldPrice": 1299.99
+            },
+            {
+                "name": "AWS Certified Security Speciality 2022",
+                "author": "Zeal Vora",
+                "rating": 4.6,
+                "enrolled": 5331,
+                "currentPrice": 369.99
+            },
+            {
+                "name": "Part 1: AWS Certified Solutions Architect SAA C03 [Updated]",
+                "author": "Chandra Lingam",
+                "rating": 4.6,
+                "enrolled": 1571,
+                "currentPrice": 269.99,
+                "oldPrice": 669.99
+            },
+            {
+                "name": "Practice Test AWS Solutions Architect Associate SAA C03",
+                "author": "Chandra Lingam",
+                "rating": 4.7,
+                "enrolled": 2829,
+                "currentPrice": 269.99,
+                "oldPrice": 519.99
+            },
+            {
+                "name": "AWS Certified Solution Architect - Associate",
+                "author": "Alan Rodrigues",
+                "rating": 4.6,
+                "enrolled": 2285,
+                "currentPrice": 269.99,
+                "oldPrice": 829.99
+            },
+            {
+                "name": "AWS Certified Solutions Architect - Associate 2022",
+                "author": "Zeal Vora",
+                "rating": 4.6,
+                "enrolled": 1472,
+                "currentPrice": 319.99
+            }
+        ]
+    },
+    "Data Science": {
+        "name": "Data Science",
+        "title": "Lead data-driven decisions with Data Science",
+        "description": "Data science application is an in-demand skill in many industries worldwide — including finance, transportation, education, manufacturing, human resources, and banking. Explore data science courses with Python, statistics, machine learning, and more to grow your knowledge. Get data science training if you’re into research, statistics, and analytics.",
+        "courses": [
+            {
+                "name": "Learn Python: The Complete Python Programming Course",
+                "author": "Avinash Jain, The Codex",
+                "rating": 4.4,
+                "enrolled": 2985,
+                "currentPrice": 269.99,
+                "oldPrice": 679.99
+            },
+            {
+                "name": "Learn Python for Data Analysis and Visualization",
+                "author": "Jose Portilla",
+                "rating": 4.4,
+                "enrolled": 18017,
+                "currentPrice": 319.99,
+                "oldPrice": 1599.99
+            },
+            {
+                "name": "Python for Beginners - Learn Programming from scratch",
+                "author": "Edwin Diaz, Coding Faculty Solutions",
+                "rating": 4.4,
+                "enrolled": 1798,
+                "currentPrice": 269.99,
+                "oldPrice": 679.99
+            },
+            {
+                "name": "Learn Python: Python for Beginners",
+                "author": "Abrar Hussain",
+                "rating": 4.3,
+                "enrolled": 2774,
+                "currentPrice": 269.99,
+                "oldPrice": 319.99
+            },
+            {
+                "name": "Python Beyond the Basics - Object-Oriented Programming",
+                "author": "Infinite Skills",
+                "rating": 4.3,
+                "enrolled": 2935,
+                "currentPrice": 269.99,
+                "oldPrice": 519.99
+            },
+            {
+                "name": "Python From Scratch & Selenium WebDriver QA Automation 2022",
+                "author": "Admas Kinfu",
+                "rating": 4.6,
+                "enrolled": 1825,
+                "currentPrice": 269.99,
+                "oldPrice": 1299.99
+            }
+        ]
+    },
+    "JavaScript": {
+        "name": "JavaScript",
+        "title": "Grow your software development skills with JavaScript",
+        "description": "JavaScript is a text-based computer programming language used to make dynamic web pages. A must-learn for aspiring web developers or programmers, JavaScript can be used for features like image carousels, displaying countdowns and timers, and playing media on a webpage. With JavaScript online classes, you can learn to build interactive web applications, choose the best framework, and work with other programming languages like HTML and CSS.",
+        "courses": [
+            {
+                "name": "Javascript for Beginners",
+                "author": "Tech Learning Network",
+                "rating": 4.5,
+                "enrolled": 788,
+                "currentPrice": 199.99,
+                "oldPrice": 229.99
+            },
+            {
+                "name": "1 Hour JavaScript",
+                "author": "John Bura",
+                "rating": 4.4,
+                "enrolled": 1898,
+                "currentPrice": 269.99,
+                "oldPrice": 1399.99
+            },
+            {
+                "name": "JavaScript: Understanding the Weird Parts",
+                "author": "Anthony Alicea",
+                "rating": 4.7,
+                "enrolled": 45205,
+                "currentPrice": 319.99,
+                "oldPrice": 1299.99
+            },
+            {
+                "name": "Javascript for Beginners Learn by Doing Practical Exercises",
+                "author": "Edwin Diaz, Coding Faculty Solutions",
+                "rating": 4.3,
+                "enrolled": 14143,
+                "currentPrice": 229.99,
+                "oldPrice": 679.99
+            },
+            {
+                "name": "JavaScript from Beginner to Expert",
+                "author": "Arkaduisz Wlodarczyk",
+                "rating": 4.3,
+                "enrolled": 1155,
+                "currentPrice": 269.99,
+                "oldPrice": 829.99
+            },
+            {
+                "name": "JavaScript for Kids: Code Your Own Games and Apps at Any Age",
+                "author": "Bryson Payne",
+                "rating": 4.5,
+                "enrolled": 796,
+                "currentPrice": 229.99,
+                "oldPrice": 319.99
+            }
+        ]
+    },
+    "Python": {
+        "name": "Python",
+        "title": "Expand your career opportunities with Python",
+        "description": "Take one of Udemy's range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to both beginners and advanced developers alike.",
+        "courses": [
+            {
+                "name": "Learn Python: The Complete Python Programming Course",
+                "author": "Avinash Jain, The Codex",
+                "rating": 4.4,
+                "enrolled": 2985,
+                "currentPrice": 269.99,
+                "oldPrice": 679.99
+            },
+            {
+                "name": "Learn Python for Data Analysis and Visualization",
+                "author": "Jose Portilla",
+                "rating": 4.4,
+                "enrolled": 18017,
+                "currentPrice": 319.99,
+                "oldPrice": 1599.99
+            },
+            {
+                "name": "Python for Beginners - Learn Programming from scratch",
+                "author": "Edwin Diaz, Coding Faculty Solutions",
+                "rating": 4.4,
+                "enrolled": 1798,
+                "currentPrice": 269.99,
+                "oldPrice": 679.99
+            },
+            {
+                "name": "Learn Python: Python for Beginners",
+                "author": "Abrar Hussain",
+                "rating": 4.3,
+                "enrolled": 2774,
+                "currentPrice": 269.99,
+                "oldPrice": 319.99
+            },
+            {
+                "name": "Python Beyond the Basics - Object-Oriented Programming",
+                "author": "Infinite Skills",
+                "rating": 4.3,
+                "enrolled": 2935,
+                "currentPrice": 269.99,
+                "oldPrice": 519.99
+            },
+            {
+                "name": "Python From Scratch & Selenium WebDriver QA Automation 2022",
+                "author": "Admas Kinfu",
+                "rating": 4.6,
+                "enrolled": 1825,
+                "currentPrice": 269.99,
+                "oldPrice": 1299.99
+            }
+        ]
+    },
+    "Web Development": {
+        "name": "Web Development",
+        "title": "Build websites and applications with Web Development",
+        "descrition": "The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.",
+        "courses": [
+            {
+                "name": "Learn Python: The Complete Python Programming Course",
+                "author": "Avinash Jain, The Codex",
+                "rating": 4.4,
+                "enrolled": 2985,
+                "currentPrice": 269.99,
+                "oldPrice": 679.99
+            },
+            {
+                "name": "Learn Python for Data Analysis and Visualization",
+                "author": "Jose Portilla",
+                "rating": 4.4,
+                "enrolled": 18017,
+                "currentPrice": 319.99,
+                "oldPrice": 1599.99
+            },
+            {
+                "name": "Python for Beginners - Learn Programming from scratch",
+                "author": "Edwin Diaz, Coding Faculty Solutions",
+                "rating": 4.4,
+                "enrolled": 1798,
+                "currentPrice": 269.99,
+                "oldPrice": 679.99
+            },
+            {
+                "name": "Learn Python: Python for Beginners",
+                "author": "Abrar Hussain",
+                "rating": 4.3,
+                "enrolled": 2774,
+                "currentPrice": 269.99,
+                "oldPrice": 319.99
+            },
+            {
+                "name": "Python Beyond the Basics - Object-Oriented Programming",
+                "author": "Infinite Skills",
+                "rating": 4.3,
+                "enrolled": 2935,
+                "currentPrice": 269.99,
+                "oldPrice": 519.99
+            },
+            {
+                "name": "Python From Scratch & Selenium WebDriver QA Automation 2022",
+                "author": "Admas Kinfu",
+                "rating": 4.6,
+                "enrolled": 1825,
+                "currentPrice": 269.99,
+                "oldPrice": 1299.99
+            }
+        ]
+    },
+    "Excel": {
+        "name": "Excel",
+        "title": "Analyze and visualize data with Excel",
+        "description": "Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard software. Real-world experts will show you the basics like how to organize data into sheets, rows and columns, and advanced techniques like creating complex dynamic formulas. Both small businesses and large companies use Excel to turn their raw data into actionable insights.",
+        "courses": [
+            {
+                "name": "Learn Python: The Complete Python Programming Course",
+                "author": "Avinash Jain, The Codex",
+                "rating": 4.4,
+                "enrolled": 2985,
+                "currentPrice": 269.99,
+                "oldPrice": 679.99
+            },
+            {
+                "name": "Learn Python for Data Analysis and Visualization",
+                "author": "Jose Portilla",
+                "rating": 4.4,
+                "enrolled": 18017,
+                "currentPrice": 319.99,
+                "oldPrice": 1599.99
+            },
+            {
+                "name": "Python for Beginners - Learn Programming from scratch",
+                "author": "Edwin Diaz, Coding Faculty Solutions",
+                "rating": 4.4,
+                "enrolled": 1798,
+                "currentPrice": 269.99,
+                "oldPrice": 679.99
+            },
+            {
+                "name": "Learn Python: Python for Beginners",
+                "author": "Abrar Hussain",
+                "rating": 4.3,
+                "enrolled": 2774,
+                "currentPrice": 269.99,
+                "oldPrice": 319.99
+            },
+            {
+                "name": "Python Beyond the Basics - Object-Oriented Programming",
+                "author": "Infinite Skills",
+                "rating": 4.3,
+                "enrolled": 2935,
+                "currentPrice": 269.99,
+                "oldPrice": 519.99
+            },
+            {
+                "name": "Python From Scratch & Selenium WebDriver QA Automation 2022",
+                "author": "Admas Kinfu",
+                "rating": 4.6,
+                "enrolled": 1825,
+                "currentPrice": 269.99,
+                "oldPrice": 1299.99
+            }
+        ]
+    },
+    "Drawing": {
+        "name": "Drawing"
+    }
+}
