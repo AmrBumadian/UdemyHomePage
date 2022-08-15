@@ -8,6 +8,38 @@ coursesCategories.addEventListener("click", event => {
     let clickedListElement = event.target;
     previousClickedElement.classList.remove("chosen-category");
     clickedListElement.classList.add("chosen-category");
-    getCurrentCourses()
+    console.log(clickedListElement);
+    let currentCategory = clickedListElement.innerText;
+    console.log(currentCategory);
+    fetchCoursesOfCategory(currentCategory);
     event.stopPropagation();
 });
+
+function displayCourses(courseSection, coursesDataArray) {
+    for (course in coursesDataArray) {
+
+    }
+}
+
+function displayNewCourseCategory(courseCategoryObject) {
+    let categorySection = document.querySelector(".category");
+    let title = categorySection.querySelector("h3");
+    let description = categorySection.querySelector(".category-description");
+    let exploreButton = categorySection.querySelector("#explore-category");
+    let courseSection = categorySection.querySelector(".courses");
+    title.innerText = courseCategoryObject?.title ?? "";
+    description.innerText = courseCategoryObject?.description ?? "";
+    exploreButton.innerHTML = `Explore ${courseCategoryObject?.name ?? ""}`;
+    displayCourses(courseSection, courseCategoryObject.courses);
+}
+
+let apiUrl = "http://localhost:8000/";
+
+function fetchCoursesOfCategory(categoryName) {
+    categoryName = categoryName.replace(/\s/g, "");
+    fetch(apiUrl + categoryName)
+        .then((response) => response.json())
+        .then((data) => {
+            displayNewCourseCategory(data)
+        });
+}

@@ -1,6 +1,6 @@
 {
-    "AWS": {
-        "name": "AWS",
+    "AWSCertificate": {
+        "name": "AWS Certificate",
         "title": "Become an expert in cloud computing with AWS Certification",
         "description": "Start exploring new possibilities for your future. Log in to see courses on sale through tomorrow.",
         "courses": [
@@ -52,7 +52,7 @@
             }
         ]
     },
-    "Data Science": {
+    "DataScience": {
         "name": "Data Science",
         "title": "Lead data-driven decisions with Data Science",
         "description": "Data science application is an in-demand skill in many industries worldwide — including finance, transportation, education, manufacturing, human resources, and banking. Explore data science courses with Python, statistics, machine learning, and more to grow your knowledge. Get data science training if you’re into research, statistics, and analytics.",
@@ -217,7 +217,7 @@
             }
         ]
     },
-    "Web Development": {
+    "WebDevelopment": {
         "name": "Web Development",
         "title": "Build websites and applications with Web Development",
         "descrition": "The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.",
