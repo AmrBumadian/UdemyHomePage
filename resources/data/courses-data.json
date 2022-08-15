@@ -2,53 +2,65 @@
     "AWSCertificate": {
         "name": "AWS Certificate",
         "title": "Become an expert in cloud computing with AWS Certification",
-        "description": "Start exploring new possibilities for your future. Log in to see courses on sale through tomorrow.",
+        "description": "Prep for your AWS certification with an AWS course on Udemy. Learn the fundamentals of AWS such as working with a serverless platform, the various frameworks, security and more. With these courses, you’ll build the valuable skills you need to implement cloud initiatives — and open up new career opportunities. If you want to become an AWS developer, we’ve got the course for you.",
         "courses": [
             {
                 "name": "Amazon Web Services(AWS) Certified 2022 - 4 Certifications!",
                 "author": "BackSpace Academy, Paul Coady",
                 "rating": 4.5,
                 "enrolled": 20993,
-                "currentPrice": 269.99,
-                "oldPrice": 1299.99
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£1299.99",
+                "image": "../resources/images/aws_course1.jpg",
+                "alt-image": "AWS Logo "
             },
             {
                 "name": "AWS Certified Security Speciality 2022",
                 "author": "Zeal Vora",
                 "rating": 4.6,
                 "enrolled": 5331,
-                "currentPrice": 369.99
+                "currentPrice": "E£369.99",
+                "image": "../resources/images/aws_course2.jpg",
+                "alt-image": "AWS Logo "
             },
             {
                 "name": "Part 1: AWS Certified Solutions Architect SAA C03 [Updated]",
                 "author": "Chandra Lingam",
                 "rating": 4.6,
                 "enrolled": 1571,
-                "currentPrice": 269.99,
-                "oldPrice": 669.99
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£669.99",
+                "image": "../resources/images/aws_course3.jpg",
+                "alt-image": "AWS Logo "
             },
             {
                 "name": "Practice Test AWS Solutions Architect Associate SAA C03",
                 "author": "Chandra Lingam",
                 "rating": 4.7,
                 "enrolled": 2829,
-                "currentPrice": 269.99,
-                "oldPrice": 519.99
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£519.99",
+                "image": "../resources/images/aws_course4.jpg",
+                "alt-image": "AWS Logo "
             },
             {
                 "name": "AWS Certified Solution Architect - Associate",
                 "author": "Alan Rodrigues",
                 "rating": 4.6,
                 "enrolled": 2285,
-                "currentPrice": 269.99,
-                "oldPrice": 829.99
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£829.99",
+                "image": "../resources/images/aws_course5.jpg",
+                "alt-image": "AWS Logo "
             },
             {
                 "name": "AWS Certified Solutions Architect - Associate 2022",
                 "author": "Zeal Vora",
                 "rating": 4.6,
                 "enrolled": 1472,
-                "currentPrice": 319.99
+                "currentPrice": "E£319.99",
+                "image": "../resources/images/aws_course6.jpg",
+                "alt-image": "AWS Logo "
             }
         ]
     },
@@ -58,52 +70,64 @@
         "description": "Data science application is an in-demand skill in many industries worldwide — including finance, transportation, education, manufacturing, human resources, and banking. Explore data science courses with Python, statistics, machine learning, and more to grow your knowledge. Get data science training if you’re into research, statistics, and analytics.",
         "courses": [
             {
-                "name": "Learn Python: The Complete Python Programming Course",
-                "author": "Avinash Jain, The Codex",
-                "rating": 4.4,
-                "enrolled": 2985,
-                "currentPrice": 269.99,
-                "oldPrice": 679.99
-            },
-            {
-                "name": "Learn Python for Data Analysis and Visualization",
-                "author": "Jose Portilla",
-                "rating": 4.4,
-                "enrolled": 18017,
-                "currentPrice": 319.99,
-                "oldPrice": 1599.99
-            },
-            {
-                "name": "Python for Beginners - Learn Programming from scratch",
-                "author": "Edwin Diaz, Coding Faculty Solutions",
-                "rating": 4.4,
-                "enrolled": 1798,
-                "currentPrice": 269.99,
-                "oldPrice": 679.99
-            },
-            {
-                "name": "Learn Python: Python for Beginners",
-                "author": "Abrar Hussain",
-                "rating": 4.3,
-                "enrolled": 2774,
-                "currentPrice": 269.99,
-                "oldPrice": 319.99
-            },
-            {
-                "name": "Python Beyond the Basics - Object-Oriented Programming",
-                "author": "Infinite Skills",
-                "rating": 4.3,
-                "enrolled": 2935,
-                "currentPrice": 269.99,
-                "oldPrice": 519.99
-            },
-            {
-                "name": "Python From Scratch & Selenium WebDriver QA Automation 2022",
-                "author": "Admas Kinfu",
+                "name": "Data Science A-Z™: Real-Life Data Science Excercises Included",
+                "author": "Kirill Eremenko, Ligency I Team, Ligency Team",
                 "rating": 4.6,
-                "enrolled": 1825,
-                "currentPrice": 269.99,
-                "oldPrice": 1299.99
+                "enrolled": 32044,
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£1299.99",
+                "image": "../resources/images/ds_course1.jpg",
+                "alt-image": "Data Science Logo "
+            },
+            {
+                "name": "Machine Learning, Data Science and Deep Learning with Python",
+                "author": "Sundog Education by Frank Kane",
+                "rating": 4.5,
+                "enrolled": 27633,
+                "currentPrice": "E£229.99",
+                "oldPrice": "E£269.99",
+                "image": "../resources/images/ds_course2.jpg",
+                "alt-image": "Data Science Logo "
+            },
+            {
+                "name": "Data Science: Deep Learning and Neural Networks in Python",
+                "author": "Lazy Programmner Inc.",
+                "rating": 4.6,
+                "enrolled": 8508,
+                "currentPrice": "E£229.99",
+                "oldPrice": "E£1199.99",
+                "image": "../resources/images/ds_course4.jpg",
+                "alt-image": "Data Science Logo "
+            },
+            {
+                "name": "R programming A-Z™: R For Data Science With Real Exercises!",
+                "author": "Kirill Eremenko, Ligency I Team, Ligency Team",
+                "rating": 4.7,
+                "enrolled": 47137,
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£1399.99",
+                "image": "../resources/images/ds_course3.jpg",
+                "alt-image": "Data Science Logo "
+            },
+            {
+                "name": "Data Science and Machine Learning Bootcamp with R",
+                "author": "Jose Portilla",
+                "rating": 4.8,
+                "enrolled": 15123,
+                "currentPrice": "E£319.99",
+                "oldPrice": "E£1599.99",
+                "image": "../resources/images/ds_course5.jpg",
+                "alt-image": "Data Science Logo "
+            },
+            {
+                "name": "R Programming: Advanced Analytics In R For Data Science",
+                "author": "Kirill Eremenko, Ligency I Team, Ligency Team",
+                "rating": 4.7,
+                "enrolled": 7991,
+                "currentPrice": "E£319.99",
+                "oldPrice": "E£1599.99",
+                "image": "../resources/images/ds_course6.jpg",
+                "alt-image": "Data Science Logo "
             }
         ]
     },
@@ -117,48 +141,60 @@
                 "author": "Tech Learning Network",
                 "rating": 4.5,
                 "enrolled": 788,
-                "currentPrice": 199.99,
-                "oldPrice": 229.99
+                "currentPrice": "E£199.99",
+                "oldPrice": "E£229.99",
+                "image": "../resources/images/js_course1.jpg",
+                "alt-image": "JavaScript Logo "
             },
             {
                 "name": "1 Hour JavaScript",
                 "author": "John Bura",
                 "rating": 4.4,
                 "enrolled": 1898,
-                "currentPrice": 269.99,
-                "oldPrice": 1399.99
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£1399.99",
+                "image": "../resources/images/js_course2.jpg",
+                "alt-image": "JavaScript Logo "
             },
             {
                 "name": "JavaScript: Understanding the Weird Parts",
                 "author": "Anthony Alicea",
                 "rating": 4.7,
                 "enrolled": 45205,
-                "currentPrice": 319.99,
-                "oldPrice": 1299.99
+                "currentPrice": "E£319.99",
+                "oldPrice": "E£1299.99",
+                "image": "../resources/images/js_course3.jpg",
+                "alt-image": "JavaScript Logo "
             },
             {
                 "name": "Javascript for Beginners Learn by Doing Practical Exercises",
                 "author": "Edwin Diaz, Coding Faculty Solutions",
                 "rating": 4.3,
                 "enrolled": 14143,
-                "currentPrice": 229.99,
-                "oldPrice": 679.99
+                "currentPrice": "E£229.99",
+                "oldPrice": "E£679.99",
+                "image": "../resources/images/js_course4.jpg",
+                "alt-image": "JavaScript Logo "
             },
             {
                 "name": "JavaScript from Beginner to Expert",
                 "author": "Arkaduisz Wlodarczyk",
                 "rating": 4.3,
                 "enrolled": 1155,
-                "currentPrice": 269.99,
-                "oldPrice": 829.99
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£829.99",
+                "image": "../resources/images/js_course5.jpg",
+                "alt-image": "JavaScript Logo "
             },
             {
                 "name": "JavaScript for Kids: Code Your Own Games and Apps at Any Age",
                 "author": "Bryson Payne",
                 "rating": 4.5,
                 "enrolled": 796,
-                "currentPrice": 229.99,
-                "oldPrice": 319.99
+                "currentPrice": "E£229.99",
+                "oldPrice": "E£319.99",
+                "image": "../resources/images/js_course6.jpg",
+                "alt-image": "JavaScript Logo "
             }
         ]
     },
@@ -172,103 +208,127 @@
                 "author": "Avinash Jain, The Codex",
                 "rating": 4.4,
                 "enrolled": 2985,
-                "currentPrice": 269.99,
-                "oldPrice": 679.99
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£679.99",
+                "image": "../resources/images/py_course1.jpg",
+                "alt-image": "Python Logo "
             },
             {
                 "name": "Learn Python for Data Analysis and Visualization",
                 "author": "Jose Portilla",
                 "rating": 4.4,
                 "enrolled": 18017,
-                "currentPrice": 319.99,
-                "oldPrice": 1599.99
+                "currentPrice": "E£319.99",
+                "oldPrice": "E£1599.99",
+                "image": "../resources/images/py_course2.jpg",
+                "alt-image": "Python Logo "
             },
             {
                 "name": "Python for Beginners - Learn Programming from scratch",
                 "author": "Edwin Diaz, Coding Faculty Solutions",
                 "rating": 4.4,
                 "enrolled": 1798,
-                "currentPrice": 269.99,
-                "oldPrice": 679.99
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£679.99",
+                "image": "../resources/images/py_course3.jpg",
+                "alt-image": "Python Logo "
             },
             {
                 "name": "Learn Python: Python for Beginners",
                 "author": "Abrar Hussain",
                 "rating": 4.3,
                 "enrolled": 2774,
-                "currentPrice": 269.99,
-                "oldPrice": 319.99
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£319.99",
+                "image": "../resources/images/py_course4.jpg",
+                "alt-image": "Python Logo "
             },
             {
                 "name": "Python Beyond the Basics - Object-Oriented Programming",
                 "author": "Infinite Skills",
                 "rating": 4.3,
                 "enrolled": 2935,
-                "currentPrice": 269.99,
-                "oldPrice": 519.99
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£519.99",
+                "image": "../resources/images/py_course5.jpg",
+                "alt-image": "Python Logo "
             },
             {
                 "name": "Python From Scratch & Selenium WebDriver QA Automation 2022",
                 "author": "Admas Kinfu",
                 "rating": 4.6,
                 "enrolled": 1825,
-                "currentPrice": 269.99,
-                "oldPrice": 1299.99
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£1299.99",
+                "image": "../resources/images/py_course6.jpg",
+                "alt-image": "Python Logo "
             }
         ]
     },
     "WebDevelopment": {
         "name": "Web Development",
         "title": "Build websites and applications with Web Development",
-        "descrition": "The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.",
+        "description": "The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.",
         "courses": [
             {
-                "name": "Learn Python: The Complete Python Programming Course",
-                "author": "Avinash Jain, The Codex",
-                "rating": 4.4,
-                "enrolled": 2985,
-                "currentPrice": 269.99,
-                "oldPrice": 679.99
+                "name": "Become a Certified HTML, CSS, JavaScript Web Developer",
+                "author": "Tech Learning Network, Mark Lassoff",
+                "rating": 4.5,
+                "enrolled": 2739,
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£679.99",
+                "image": "../resources/images/wd_course1.jpg",
+                "alt-image": "Web Development Logo "
             },
             {
-                "name": "Learn Python for Data Analysis and Visualization",
-                "author": "Jose Portilla",
-                "rating": 4.4,
-                "enrolled": 18017,
-                "currentPrice": 319.99,
-                "oldPrice": 1599.99
+                "name": "The Complete 2020 Fullstack Web Developer Course",
+                "author": "Kalob Taulien",
+                "rating": 4.5,
+                "enrolled": 6160,
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£1299.99",
+                "image": "../resources/images/wd_course2.jpg",
+                "alt-image": "Web Development Logo "
             },
             {
-                "name": "Python for Beginners - Learn Programming from scratch",
-                "author": "Edwin Diaz, Coding Faculty Solutions",
-                "rating": 4.4,
-                "enrolled": 1798,
-                "currentPrice": 269.99,
-                "oldPrice": 679.99
-            },
-            {
-                "name": "Learn Python: Python for Beginners",
-                "author": "Abrar Hussain",
+                "name": "Introduction to Web Development",
+                "author": "Tech Learning Network, Mark Lassoff",
                 "rating": 4.3,
-                "enrolled": 2774,
-                "currentPrice": 269.99,
-                "oldPrice": 319.99
+                "enrolled": 1723,
+                "currentPrice": "E£199.99",
+                "oldPrice": "E£229.99",
+                "image": "../resources/images/wd_course3.jpg",
+                "alt-image": "Web Development Logo "
             },
             {
-                "name": "Python Beyond the Basics - Object-Oriented Programming",
-                "author": "Infinite Skills",
-                "rating": 4.3,
-                "enrolled": 2935,
-                "currentPrice": 269.99,
-                "oldPrice": 519.99
+                "name": "Running a Web Development Business: The Complete Guide",
+                "author": "evan Kimbrell",
+                "rating": 4.8,
+                "enrolled": 1575,
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£829.99",
+                "image": "../resources/images/wd_course4.jpg",
+                "alt-image": "Web Development Logo "
             },
             {
-                "name": "Python From Scratch & Selenium WebDriver QA Automation 2022",
-                "author": "Admas Kinfu",
+                "name": "Ultimate Web Designer & Web Develop Course",
+                "author": "Brad Hussey",
                 "rating": 4.6,
-                "enrolled": 1825,
-                "currentPrice": 269.99,
-                "oldPrice": 1299.99
+                "enrolled": 13393,
+                "currentPrice": "E£319.99",
+                "oldPrice": "E£1699.99",
+                "image": "../resources/images/wd_course5.jpg",
+                "alt-image": "Web Development Logo "
+            },
+            {
+                "name": "Introduction to Programming",
+                "author": "Tech Learning Network, Mark Lassoff",
+                "rating": 4.5,
+                "enrolled": 1335,
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£1299.99",
+                "image": "../resources/images/wd_course6.jpg",
+                "alt-image": "Web Development Logo "
             }
         ]
     },
@@ -278,56 +338,73 @@
         "description": "Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard software. Real-world experts will show you the basics like how to organize data into sheets, rows and columns, and advanced techniques like creating complex dynamic formulas. Both small businesses and large companies use Excel to turn their raw data into actionable insights.",
         "courses": [
             {
-                "name": "Learn Python: The Complete Python Programming Course",
-                "author": "Avinash Jain, The Codex",
-                "rating": 4.4,
-                "enrolled": 2985,
-                "currentPrice": 269.99,
-                "oldPrice": 679.99
-            },
-            {
-                "name": "Learn Python for Data Analysis and Visualization",
-                "author": "Jose Portilla",
-                "rating": 4.4,
-                "enrolled": 18017,
-                "currentPrice": 319.99,
-                "oldPrice": 1599.99
-            },
-            {
-                "name": "Python for Beginners - Learn Programming from scratch",
-                "author": "Edwin Diaz, Coding Faculty Solutions",
-                "rating": 4.4,
-                "enrolled": 1798,
-                "currentPrice": 269.99,
-                "oldPrice": 679.99
-            },
-            {
-                "name": "Learn Python: Python for Beginners",
-                "author": "Abrar Hussain",
-                "rating": 4.3,
-                "enrolled": 2774,
-                "currentPrice": 269.99,
-                "oldPrice": 319.99
-            },
-            {
-                "name": "Python Beyond the Basics - Object-Oriented Programming",
+                "name": "Microsoft Excel 2013 Course Beginners/ Intermediate Training",
                 "author": "Infinite Skills",
-                "rating": 4.3,
-                "enrolled": 2935,
-                "currentPrice": 269.99,
-                "oldPrice": 519.99
+                "rating": 4.5,
+                "enrolled": 1623,
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£519.99",
+                "image": "../resources/images/ex_course1.jpg",
+                "alt-image": "Excel Logo "
             },
             {
-                "name": "Python From Scratch & Selenium WebDriver QA Automation 2022",
-                "author": "Admas Kinfu",
+                "name": "Microsoft Excel 2013 Advanced, Online Excel Training Course",
+                "author": "Infinite Skills",
+                "rating": 4.5,
+                "enrolled": 3504,
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£519.99",
+                "image": "../resources/images/ex_course2.jpg",
+                "alt-image": "Excel Logo "
+            },
+            {
+                "name": "Microsoft Excel - From Beginner to Expert in 6 Hours",
+                "author": "Todd McLeod",
+                "rating": 4.5,
+                "enrolled": 24595,
+                "currentPrice": "E£229.99",
+                "oldPrice": "E£269.99",
+                "image": "../resources/images/ex_course3.jpg",
+                "alt-image": "Excel Logo "
+            },
+            {
+                "name": "Sharper skills using Microsoft excel 2010 for business",
+                "author": "Ulrika Hedlund",
+                "rating": 4.7,
+                "enrolled": 656,
+                "currentPrice": "E£199.99",
+                "oldPrice": "E£229.99",
+                "image": "../resources/images/ex_course4.jpg",
+                "alt-image": "Excel Logo "
+            },
+            {
+                "name": "Learn Microsoft Excel 2013 - Advanced",
+                "author": "Simon Sex IT",
                 "rating": 4.6,
-                "enrolled": 1825,
-                "currentPrice": 269.99,
-                "oldPrice": 1299.99
+                "enrolled": 372,
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£679.99",
+                "image": "../resources/images/ex_course5.jpg",
+                "alt-image": "Excel Logo "
+            },
+            {
+                "name": "Excel 2013",
+                "author": "Learnit Anytime",
+                "rating": 4.6,
+                "enrolled": 1442,
+                "currentPrice": "E£269.99",
+                "oldPrice": "E£419.99",
+                "image": "../resources/images/ex_course6.jpg",
+                "alt-image": "Excel Logo "
             }
         ]
     },
     "Drawing": {
-        "name": "Drawing"
+        "name": "Drawing",
+        "title" : "Expand your creative skillset with Drawing",
+        "description" : "Want to start drawing for fun or take your craft to the next level? Explore our online drawing classes and learn pencil drawing, figure drawing, cartoon drawing, character drawing for cartoons and anime, illustration, sketching, shading and more. Take an overview course on the fundamentals of drawing or zero in on an area you’d like to improve with a specialized course. We’ve got tons of options to get — and keep — you going.",
+        "courses" : [
+
+        ]
     }
 }

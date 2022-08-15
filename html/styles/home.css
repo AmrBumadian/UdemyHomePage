@@ -257,9 +257,10 @@ main h2 {
     color: 	grey;
 }
 
-.rating{
+.rating {
     color: goldenrod;
     font-weight: 600;
+    margin-right: 1%;
 }
 
 .price {
@@ -268,6 +269,11 @@ main h2 {
 
 .old-price{
     text-decoration: line-through;
+    color: grey;
+}
+
+.empty-courses {
+    font-style: italic;
     color: grey;
 }
 
