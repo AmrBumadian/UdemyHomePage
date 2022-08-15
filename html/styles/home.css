@@ -174,8 +174,8 @@ main h2 {
     color: black;
 }
 
-#chosen-category {
-    color: black;
+.chosen-category {
+    color: black !important;
 }
 
 .category {

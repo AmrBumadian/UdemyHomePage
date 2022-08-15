@@ -1,0 +1,55 @@
+{
+    "name" : "JavaScript",
+    "title": "Grow your software development skills with JavaScript",
+    "description": "JavaScript is a text-based computer programming language used to make dynamic web pages. A must-learn for aspiring web developers or programmers, JavaScript can be used for features like image carousels, displaying countdowns and timers, and playing media on a webpage. With JavaScript online classes, you can learn to build interactive web applications, choose the best framework, and work with other programming languages like HTML and CSS.",
+    "courses": [
+        {
+            "name": "Javascript for Beginners",
+            "author": "Tech Learning Network",
+            "rating": 4.5,
+            "enrolled": 788,
+            "currentPrice": 199.99,
+            "oldPrice": 229.99
+        },
+        {
+            "name": "1 Hour JavaScript",
+            "author": "John Bura",
+            "rating": 4.4,
+            "enrolled": 1898,
+            "currentPrice": 269.99,
+            "oldPrice": 1399.99
+        },
+        {
+            "name": "JavaScript: Understanding the Weird Parts",
+            "author": "Anthony Alicea",
+            "rating": 4.7,
+            "enrolled": 45205,
+            "currentPrice": 319.99,
+            "oldPrice": 1299.99
+        },
+        {
+            "name": "Javascript for Beginners Learn by Doing Practical Exercises",
+            "author": "Edwin Diaz, Coding Faculty Solutions",
+            "rating": 4.3,
+            "enrolled": 14143,
+            "currentPrice": 229.99,
+            "oldPrice": 679.99
+        },
+        {
+            "name": "JavaScript from Beginner to Expert",
+            "author": "Arkaduisz Wlodarczyk",
+            "rating": 4.3,
+            "enrolled": 1155,
+            "currentPrice": 269.99,
+            "oldPrice": 829.99
+        },
+        {
+            "name": "JavaScript for Kids: Code Your Own Games and Apps at Any Age",
+            "author": "Bryson Payne",
+            "rating": 4.5,
+            "enrolled": 796,
+            "currentPrice": 229.99,
+            "oldPrice": 319.99
+        }
+    ]
+}
