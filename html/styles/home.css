@@ -15,15 +15,19 @@ body * {
 /* Nav */
 
 nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 4.5rem;
+    z-index: 1;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 4.5rem;
+    background-color: #f8f9fb;
     box-shadow: 0 4px 12px rgba(0,0,0, 0.1);
 }
 
 nav > * {
-    display: inline-block;
     margin: 0 0.5rem;
     white-space: nowrap;
     cursor: pointer;
@@ -82,7 +86,7 @@ nav > button:hover {
 }
 
 #signup {
-    background-color: #1a1f1f;
+    background-color: black;
     color: white;
     padding: 0.6rem 0.9rem;
 }
@@ -140,7 +144,7 @@ header > section > h2 {
 
 header > img {
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 4.5rem;
 }
 
 /* Main */
@@ -211,11 +215,13 @@ main h2 {
 .courses {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     overflow: hidden;
 }
 
 #next-button,
 #prev-button {
+    display: none;
     position: absolute;
     top: 145%;
     font-size: 2rem;

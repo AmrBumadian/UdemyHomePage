@@ -1,14 +1,27 @@
 let coursesCategories = document.querySelector(".categories");
+let searchBar = document.querySelector("#search-bar");
 let apiUrl = "http://localhost:8000/";
+let allCoursesCache = [];
 
-function fetchCoursesOfCategory(categoryName) {
-    categoryName = categoryName.replace(/\s/g, "");
-    fetch(apiUrl + categoryName)
-        .then((response) => response.json())
-        .then((data) => {
-            displayNewCourseCategory(data)
-        });
-}
+// search bar typing listener
+let debouncer = (callback, delay) => {
+    let timer;
+    return function () {
+        const context = this;
+        const args = arguments;
+        clearTimeout(timer);
+        timer = setTimeout(() => callback.apply(context, args), delay);
+    }
+};
+searchBar.addEventListener("input", debouncer(event => {
+    let searchQuery = event.target.value;
+    if (searchQuery === "") return;
+    if (allCoursesCache.length === 0) fetchAllCoursesIn(allCoursesCache, searchQuery);
+    else {
+        let filteredCourses = filterCoursesByPattern(searchQuery);
+        displaySearchResult(filteredCourses);
+    }
+}, 500));
 
 // changing viewed course-category listener
 coursesCategories.addEventListener("click", event => {
@@ -23,7 +36,54 @@ coursesCategories.addEventListener("click", event => {
     event.stopPropagation();
 });
 
-function displayNewCourseCategory(courseCategoryObject, clearAllFlag) {
+function fetchCoursesOfCategory(categoryName) {
+    categoryName = categoryName.replace(/\s/g, "");
+    fetch(apiUrl + categoryName)
+        .then((response) => response.json())
+        .then((data) => {
+            displayNewCourseCategory(data)
+        });
+}
+
+function fetchAllCoursesIn(allCoursesList, searchQuery) {
+    fetch(apiUrl + "db")
+        .then(response => response.json())
+        .then(data => {
+            fillAllCoursesData(allCoursesList, data);
+            let filteredCourses = filterCoursesByPattern(searchQuery);
+            displaySearchResult(filteredCourses);
+        });
+}
+
+function fillAllCoursesData(allCoursesList, data) {
+    for (let category in data) {
+        for (let course of data[category]["courses"]) {
+            allCoursesList.push(course);
+        }
+    }
+}
+
+function displaySearchResult(categoryList) {
+    let categorySection = document.querySelector(".category");
+    let courseSection = categorySection.querySelector(".courses");
+    categorySection.querySelector("h3").innerText = "";
+    categorySection.querySelector(".category-description").innerText = "";
+    categorySection.querySelector("#explore-category").hidden = true;
+    clearCoursesSection(courseSection);
+    displayAvailableCourses(courseSection, categoryList);
+}
+
+function filterCoursesByPattern(searchQuery) {
+    let filteredCourses = [];
+    for (let course of allCoursesCache) {
+        if (course.name.search(new RegExp(searchQuery, "i")) != -1) {
+            filteredCourses.push(course);
+        }
+    }
+    return filteredCourses;
+}
+
+function displayNewCourseCategory(courseCategoryObject) {
     let categorySection = document.querySelector(".category");
 
     let categoryTitle = categorySection.querySelector("h3");
@@ -33,22 +93,23 @@ function displayNewCourseCategory(courseCategoryObject, clearAllFlag) {
 
     categoryTitle.innerText = courseCategoryObject?.title ?? "";
     description.innerText = courseCategoryObject?.description ?? "";
+    exploreButton.hidden = false;
     exploreButton.innerHTML = `Explore ${courseCategoryObject?.name ?? ""}`;
 
-    clearCoursesSection(courseSection, clearAllFlag);
-    displayCourses(courseSection, courseCategoryObject.courses);
+    clearCoursesSection(courseSection);
+    displayAvailableCourses(courseSection, courseCategoryObject.courses);
 }
 
 // clears the course section with or with-out the buttons
 function clearCoursesSection(courseSection, clearAllFlag) {
-    let elementsToKeep = clearAllFlag ? 0 : 4;
+    let elementsToKeep = 0;
     while (courseSection.childNodes.length > elementsToKeep) {
         courseSection.removeChild(courseSection.lastChild);
     }
 }
 
 function displayAvailableCourses(courseSection, coursesDataArray) {
-    if (coursesDataArray.length == 0) {
+    if (coursesDataArray.length === 0) {
         displayNoCourses(courseSection);
         return;
     }
@@ -82,7 +143,7 @@ function displayCourses(courseSection, coursesDataArray) {
 
         let coursePricesElement = document.createElement("section");
         appendPrices(coursePricesElement, course.currentPrice, course.oldPrice);
-        
+
         let courseDataElement = document.createElement("section");
         courseDataElement.classList.add("course");
         courseDataElement.appendChild(courseImageElement);
@@ -98,11 +159,11 @@ function displayCourses(courseSection, coursesDataArray) {
 function appendRating(rateSectionElement, courseRating, enrolledCount) {
     let ratingSpan = document.createElement("span");
     ratingSpan.innerText = courseRating;
-    
+
     let enrolledCountSpan = document.createElement("span");
     enrolledCountSpan.classList.add("enrolled");
     enrolledCountSpan.innerText = `(${enrolledCount})`;
-    
+
     rateSectionElement.appendChild(ratingSpan, courseRating);
     appendRatingStars(rateSectionElement, courseRating);
     rateSectionElement.appendChild(enrolledCountSpan);
@@ -118,7 +179,7 @@ function appendRatingStars(rateSectionElement, courseRating) {
         --rateFloat;
     }
     let star = document.createElement("i");
-    
+
     if (rateFloat < 0.7) star.setAttribute("class", "fa fa-star-half-o");
     else star.setAttribute("class", "fa fa-star-half-o");
 
