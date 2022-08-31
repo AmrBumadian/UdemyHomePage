@@ -1,3 +1,11 @@
+* {
+    box-sizing: content-box;
+}
+
+h2 {
+    font-weight: 600;
+}
+
 /* body and all elements */
 body {
     font-family: "udemy sans",Helvetica,Arial,sans-serif;
@@ -215,35 +223,39 @@ main h2 {
 .courses {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    overflow: hidden;
+    flex-wrap: nowrap;
+    overflow: auto;
 }
 
 #next-button,
 #prev-button {
-    display: none;
     position: absolute;
     top: 145%;
-    font-size: 2rem;
-    height: 3rem;
-    width: 3rem;
+    justify-content: center;
+    z-index: 1;
+    font-size: 1.5rem ;
+    height: 2rem;
+    width: 2rem;
     color:white;
     background-color: black;
-    border: 1px solid grey;
     border-radius: 50%;
 }
+
 #next-button {
     right: 4%;
 }
+
 #prev-button {
     left: 4%;
 }
 #next-button:hover,
 #prev-button:hover {
     background-color: grey;
+    border: 0;
 }
 
 .course {
+    flex: 0 0 auto;
     width: 15rem;
     height: fit-content;
     margin: 1rem 0.6rem;
@@ -288,6 +300,22 @@ main h2 {
     #udemy-business{
         display: none;
     }
+
+    #next-button,
+    #prev-button {
+        top: 150%;
+        font-size: 1.2rem;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    #next-button {
+        right : 4%;
+    }
+
+    #prev-button {
+        left : 4%;
+    }
 }
 
 /* Hiding udemy-teach */
@@ -301,8 +329,16 @@ main h2 {
     #prev-button {
         top: 150%;
         font-size: 1.2rem;
-        height: 2rem;
-        width: 2rem;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    #next-button {
+        right : 5%;
+    }
+
+    #prev-button {
+        left : 5%;
     }
 }
 
@@ -342,15 +378,42 @@ main h2 {
 
     #next-button,
     #prev-button {
-        top: 150%;
+        top: 155%;
         font-size: 1.2rem;
-        height: 2rem;
-        width: 2rem;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    #next-button {
+        right : 5.5%;
+    }
+
+    #prev-button {
+        left : 5.5%;
+    }
+}
+
+/* Showing two courses per tab */
+@media only screen and (max-width: 720px) {
+    #next-button,
+    #prev-button {
+        top: 168%;
+        font-size: 1.2rem;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    #next-button {
+        right : 7%;
+    }
+
+    #prev-button {
+        left : 7%;
     }
 }
 
 /* Mobile Screen */
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 520px) {
 
     header > section {
         height: fit-content;
@@ -371,6 +434,7 @@ main h2 {
         margin-top: 1rem;
         font-size: 1.8rem;
     }
+    
     .courses {
         flex-wrap: wrap;
     }
@@ -380,16 +444,33 @@ main h2 {
         font-size: 1.6rem;
     }
 
-    #next-button, #prev-button {
-        display: none;
+    #next-button,
+    #prev-button {
+        top: 130%;
+        font-size: 1.2rem;
+        background-color: rgba(0,0,0, 0);
+        border: none;
+        color: black;
     }
 
+    #next-button {
+        right : 4%;
+    }
+
+    #prev-button {
+        left : 4%;
+    }
+
+    #next-button:hover,
+    #prev-button:hover {
+        background-color: rgba(0,0,0, 0);
+        color: grey;
+    }
+    
     .price,
     .old-price,
     .author,
     .rating {
         font-size: 1rem;
     }
-
 }
-

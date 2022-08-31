@@ -42,6 +42,7 @@ function fetchCoursesOfCategory(categoryName) {
         .then((response) => response.json())
         .then((data) => {
             displayNewCourseCategory(data)
+            slickIt();
         });
 }
 
@@ -52,6 +53,7 @@ function fetchAllCoursesIn(allCoursesList, searchQuery) {
             fillAllCoursesData(allCoursesList, data);
             let filteredCourses = filterCoursesByPattern(searchQuery);
             displaySearchResult(filteredCourses);
+            slickIt();
         });
 }
 
@@ -85,24 +87,24 @@ function filterCoursesByPattern(searchQuery) {
 
 function displayNewCourseCategory(courseCategoryObject) {
     let categorySection = document.querySelector(".category");
-
     let categoryTitle = categorySection.querySelector("h3");
     let description = categorySection.querySelector(".category-description");
     let exploreButton = categorySection.querySelector("#explore-category");
     let courseSection = categorySection.querySelector(".courses");
-
-    categoryTitle.innerText = courseCategoryObject?.title ?? "";
-    description.innerText = courseCategoryObject?.description ?? "";
+    categoryTitle.innerText = courseCategoryObject ? .title ? ? "";
+    description.innerText = courseCategoryObject ? .description ? ? "";
     exploreButton.hidden = false;
     exploreButton.innerHTML = `Explore ${courseCategoryObject?.name ?? ""}`;
 
     clearCoursesSection(courseSection);
     displayAvailableCourses(courseSection, courseCategoryObject.courses);
+    slickIt();
 }
 
 // clears the course section with or with-out the buttons
 function clearCoursesSection(courseSection, clearAllFlag) {
     let elementsToKeep = 0;
+    courseSection.setAttribute("class", "courses");
     while (courseSection.childNodes.length > elementsToKeep) {
         courseSection.removeChild(courseSection.lastChild);
     }
